@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "71izUBtrAqQ=",
+  "dgSpecHash": "uMWbvzfkMlA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
+  "projectFilePath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\intern.ndthien2\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
-    "C:\\Users\\intern.ndthien2\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
+    "C:\\Users\\miaosan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
+    "C:\\Users\\miaosan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
   ],
   "logs": []
 }

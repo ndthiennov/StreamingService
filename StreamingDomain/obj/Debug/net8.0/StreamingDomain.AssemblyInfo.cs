@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamingDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d76e286391d6eee0028daba0e0961ab102235c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamingDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamingDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

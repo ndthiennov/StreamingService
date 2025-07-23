@@ -26,7 +26,7 @@ namespace StreamingInfrastructure.Persistence.Repositories
                     fp.Id AS fpId, fp.DeviceId, fp.IpAddress, fp.UserAgent, fp.Os, fp.Browser
                 FROM UserAccount ua
                 LEFT JOIN FingerPrint fp ON ua.id = fp.UserAccountId
-                WHERE ua.email = @email";
+                WHERE ua.email = @Email";
 
             var user = await connection.QueryAsync<UserAccount, FingerPrint, UserAccount>(sql, 
                 (user, fingerprint) =>
@@ -41,7 +41,7 @@ namespace StreamingInfrastructure.Persistence.Repositories
                     }
 
                     return user;
-                }, new {email = email}, splitOn: "fpId");
+                }, new {Email = email}, splitOn: "fpId");
 
             var userWithFirst = user.FirstOrDefault();
 
@@ -54,6 +54,23 @@ namespace StreamingInfrastructure.Persistence.Repositories
             }
 
             return userWithFirst;
+        }
+        public async Task<bool> UpdateUserAccessFailedNumberAndLockout(string email, int failedCount, DateTimeOffset? lockoutEnd)
+        {
+            string sql = @"
+                UPDATE UserAccount
+                SET AccessFailedCount = @AccessFailedCount,
+                    LockoutEnd = @LockoutEnd
+                WHERE Email = @Email;";
+            using var connection = _connectionFactory.CreateConnection();
+            await connection.ExecuteAsync(sql, new
+            {
+                Email = email,
+                AccessFailedCount = failedCount,
+                LockoutEnd = lockoutEnd
+            });
+
+            return true;
         }
     }
 }

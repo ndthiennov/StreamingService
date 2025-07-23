@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj": {}
+    "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj": {
+    "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj",
+        "projectUniqueName": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj",
         "projectName": "StreamingAPI",
-        "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj",
-        "packagesPath": "C:\\Users\\intern.ndthien2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\obj\\",
+        "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj",
+        "packagesPath": "C:\\Users\\miaosan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\intern.ndthien2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\miaosan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,17 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj": {
-                "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj"
+              "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj": {
+                "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj"
               },
-              "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj"
+              "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj"
               }
             }
           }
@@ -50,8 +47,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -81,25 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj": {
+    "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
+        "projectUniqueName": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
         "projectName": "StreamingApplication",
-        "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
-        "packagesPath": "C:\\Users\\intern.ndthien2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\obj\\",
+        "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
+        "packagesPath": "C:\\Users\\miaosan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\intern.ndthien2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\miaosan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,17 +99,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj": {
-                "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj"
+              "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj": {
+                "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj"
               },
-              "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj": {
-                "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj"
+              "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj": {
+                "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj"
               }
             }
           }
@@ -131,8 +124,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -159,25 +151,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj": {
+    "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj",
+        "projectUniqueName": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj",
         "projectName": "StreamingDomain",
-        "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj",
-        "packagesPath": "C:\\Users\\intern.ndthien2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\obj\\",
+        "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj",
+        "packagesPath": "C:\\Users\\miaosan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\intern.ndthien2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\miaosan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -185,6 +173,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -202,8 +191,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -224,25 +212,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj": {
+    "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj",
         "projectName": "StreamingInfrastructure",
-        "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\intern.ndthien2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\obj\\",
+        "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingInfrastructure\\StreamingInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\miaosan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\intern.ndthien2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\miaosan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,14 +234,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj": {
-                "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj"
+              "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj": {
+                "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingDomain\\StreamingDomain.csproj"
               }
             }
           }
@@ -271,8 +256,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -311,25 +295,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj": {
+    "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj",
+        "projectUniqueName": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj",
         "projectName": "StreamingShared",
-        "projectPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj",
-        "packagesPath": "C:\\Users\\intern.ndthien2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\obj\\",
+        "projectPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingShared\\StreamingShared.csproj",
+        "packagesPath": "C:\\Users\\miaosan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miaosan\\Downloads\\StreamingService\\StreamingShared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\intern.ndthien2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\miaosan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -337,6 +317,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -354,8 +335,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -376,7 +356,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
