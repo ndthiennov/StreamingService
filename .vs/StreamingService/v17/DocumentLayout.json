@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\commands\\handlers\\authentication\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\commands\\handlers\\authentication\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9BC93F-E887-42ED-955E-7932E945FC57}|StreamingInfrastructure\\StreamingInfrastructure.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streaminginfrastructure\\persistence\\repositories\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9BC93F-E887-42ED-955E-7932E945FC57}|StreamingInfrastructure\\StreamingInfrastructure.csproj|solutionrelative:streaminginfrastructure\\persistence\\repositories\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\interfaces\\commands\\authentication\\ilogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\interfaces\\commands\\authentication\\ilogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC78CD3-B9B9-4626-A0FE-068052C9E95C}|StreamingShared\\StreamingShared.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingshared\\commondtos\\hashsaltdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC78CD3-B9B9-4626-A0FE-068052C9E95C}|StreamingShared\\StreamingShared.csproj|solutionrelative:streamingshared\\commondtos\\hashsaltdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CFCA220-5B4C-4C9A-A959-CF30C9CFE6C7}|StreamingDomain\\StreamingDomain.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingdomain\\interfaces\\repositories\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CFCA220-5B4C-4C9A-A959-CF30C9CFE6C7}|StreamingDomain\\StreamingDomain.csproj|solutionrelative:streamingdomain\\interfaces\\repositories\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CFCA220-5B4C-4C9A-A959-CF30C9CFE6C7}|StreamingDomain\\StreamingDomain.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingdomain\\entities\\fingerprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CFCA220-5B4C-4C9A-A959-CF30C9CFE6C7}|StreamingDomain\\StreamingDomain.csproj|solutionrelative:streamingdomain\\entities\\fingerprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\commands\\authentication\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\commands\\authentication\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\dtos\\fingerprintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\dtos\\fingerprintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\streamingapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\streamingapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|solutionrelative:streamingapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|solutionrelative:streamingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9BC93F-E887-42ED-955E-7932E945FC57}|StreamingInfrastructure\\StreamingInfrastructure.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streaminginfrastructure\\persistence\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9BC93F-E887-42ED-955E-7932E945FC57}|StreamingInfrastructure\\StreamingInfrastructure.csproj|solutionrelative:streaminginfrastructure\\persistence\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CFCA220-5B4C-4C9A-A959-CF30C9CFE6C7}|StreamingDomain\\StreamingDomain.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingdomain\\entities\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CFCA220-5B4C-4C9A-A959-CF30C9CFE6C7}|StreamingDomain\\StreamingDomain.csproj|solutionrelative:streamingdomain\\entities\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9BC93F-E887-42ED-955E-7932E945FC57}|StreamingInfrastructure\\StreamingInfrastructure.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streaminginfrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9BC93F-E887-42ED-955E-7932E945FC57}|StreamingInfrastructure\\StreamingInfrastructure.csproj|solutionrelative:streaminginfrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|solutionrelative:streamingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapi\\streamingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1CDB221-69AC-451B-83D7-EF00E1658DB1}|StreamingAPI\\StreamingAPI.csproj|solutionrelative:streamingapi\\streamingapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|c:\\users\\intern.ndthien2\\downloads\\streamingservice\\streamingapplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A04E090-9C44-4D06-B13B-ACB527B86C93}|StreamingApplication\\StreamingApplication.csproj|solutionrelative:streamingapplication\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HashSaltDto.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\CommonDtos\\HashSaltDto.cs",
+              "RelativeDocumentMoniker": "StreamingShared\\CommonDtos\\HashSaltDto.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingShared\\CommonDtos\\HashSaltDto.cs",
+              "RelativeToolTip": "StreamingShared\\CommonDtos\\HashSaltDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T10:38:53.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Dtos\\ResultDto.cs",
+              "RelativeDocumentMoniker": "StreamingApplication\\Dtos\\ResultDto.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Dtos\\ResultDto.cs",
+              "RelativeToolTip": "StreamingApplication\\Dtos\\ResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:56:21.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Commands\\Authentication\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "StreamingApplication\\Commands\\Authentication\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Commands\\Authentication\\LoginCommand.cs",
+              "RelativeToolTip": "StreamingApplication\\Commands\\Authentication\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:19:43.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Commands\\Handlers\\Authentication\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "StreamingApplication\\Commands\\Handlers\\Authentication\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Commands\\Handlers\\Authentication\\LoginCommandHandler.cs",
+              "RelativeToolTip": "StreamingApplication\\Commands\\Handlers\\Authentication\\LoginCommandHandler.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:39:26.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FingerPrint.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\Entities\\FingerPrint.cs",
+              "RelativeDocumentMoniker": "StreamingDomain\\Entities\\FingerPrint.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\Entities\\FingerPrint.cs",
+              "RelativeToolTip": "StreamingDomain\\Entities\\FingerPrint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:03:11.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\Persistence\\Repositories\\UserAccountRepository.cs",
+              "RelativeDocumentMoniker": "StreamingInfrastructure\\Persistence\\Repositories\\UserAccountRepository.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\Persistence\\Repositories\\UserAccountRepository.cs",
+              "RelativeToolTip": "StreamingInfrastructure\\Persistence\\Repositories\\UserAccountRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:59:23.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Interfaces\\Commands\\Authentication\\ILoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "StreamingApplication\\Interfaces\\Commands\\Authentication\\ILoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Interfaces\\Commands\\Authentication\\ILoginCommandHandler.cs",
+              "RelativeToolTip": "StreamingApplication\\Interfaces\\Commands\\Authentication\\ILoginCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:35:17.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FingerPrintDto.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Dtos\\FingerPrintDto.cs",
+              "RelativeDocumentMoniker": "StreamingApplication\\Dtos\\FingerPrintDto.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\Dtos\\FingerPrintDto.cs",
+              "RelativeToolTip": "StreamingApplication\\Dtos\\FingerPrintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:22:35.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StreamingApplication",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
+              "RelativeDocumentMoniker": "StreamingApplication\\StreamingApplication.csproj",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\StreamingApplication.csproj",
+              "RelativeToolTip": "StreamingApplication\\StreamingApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-23T08:22:08.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\Interfaces\\Repositories\\IUserAccountRepository.cs",
+              "RelativeDocumentMoniker": "StreamingDomain\\Interfaces\\Repositories\\IUserAccountRepository.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\Interfaces\\Repositories\\IUserAccountRepository.cs",
+              "RelativeToolTip": "StreamingDomain\\Interfaces\\Repositories\\IUserAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:59:57.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "StreamingAPI\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "StreamingAPI\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:36:03.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "StreamingAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\appsettings.json",
+              "RelativeToolTip": "StreamingAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-23T07:52:22.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\Entities\\UserAccount.cs",
+              "RelativeDocumentMoniker": "StreamingDomain\\Entities\\UserAccount.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingDomain\\Entities\\UserAccount.cs",
+              "RelativeToolTip": "StreamingDomain\\Entities\\UserAccount.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T05:02:24.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\Persistence\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "StreamingInfrastructure\\Persistence\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\Persistence\\DbConnectionFactory.cs",
+              "RelativeToolTip": "StreamingInfrastructure\\Persistence\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:52:15.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StreamingAPI",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj",
+              "RelativeDocumentMoniker": "StreamingAPI\\StreamingAPI.csproj",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\StreamingAPI.csproj",
+              "RelativeToolTip": "StreamingAPI\\StreamingAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-23T04:57:48.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StreamingAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingAPI\\Program.cs",
+              "RelativeToolTip": "StreamingAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:56:56.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "StreamingInfrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingInfrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "StreamingInfrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:53:22.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "StreamingApplication\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\intern.ndthien2\\Downloads\\StreamingService\\StreamingApplication\\DependencyInjection.cs",
+              "RelativeToolTip": "StreamingApplication\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T04:53:16.014Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

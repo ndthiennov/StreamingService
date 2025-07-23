@@ -1,0 +1,11 @@
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\bin\Debug\net8.0\StreamingDomain.deps.json
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\bin\Debug\net8.0\StreamingDomain.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\bin\Debug\net8.0\StreamingDomain.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.AssemblyInfoInputs.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.AssemblyInfo.cs
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.csproj.CoreCompileInputs.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\refint\StreamingDomain.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\ref\StreamingDomain.dll

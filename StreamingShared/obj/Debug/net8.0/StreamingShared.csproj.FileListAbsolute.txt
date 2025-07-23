@@ -1,0 +1,11 @@
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\bin\Debug\net8.0\StreamingShared.deps.json
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\bin\Debug\net8.0\StreamingShared.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\bin\Debug\net8.0\StreamingShared.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.AssemblyInfoInputs.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.AssemblyInfo.cs
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.csproj.CoreCompileInputs.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\refint\StreamingShared.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\ref\StreamingShared.dll

@@ -1,0 +1,15 @@
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\bin\Debug\net8.0\StreamingInfrastructure.deps.json
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\bin\Debug\net8.0\StreamingInfrastructure.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\bin\Debug\net8.0\StreamingInfrastructure.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\bin\Debug\net8.0\StreamingDomain.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\bin\Debug\net8.0\StreamingDomain.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.csproj.AssemblyReference.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.AssemblyInfoInputs.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.AssemblyInfo.cs
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\Streamin.117D67BE.Up2Date
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\refint\StreamingInfrastructure.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.pdb
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\ref\StreamingInfrastructure.dll

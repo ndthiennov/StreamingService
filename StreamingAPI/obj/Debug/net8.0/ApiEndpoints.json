@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "StreamingAPI.Controllers.AuthenticationController",
+    "Method": "Get",
+    "RelativePath": "api/Authentication/test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
