@@ -15,6 +15,6 @@ namespace StreamingDomain.Entities
         public string UserAgent { get; set; }
         public string Os { get; set; }
         public string Browser { get; set; }
-        public UserAccount UserAccount { get; set; }
+        public UserAccount? UserAccount { get; set; }
     }
 }

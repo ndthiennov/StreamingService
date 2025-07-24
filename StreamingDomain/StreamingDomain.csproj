@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Events\" />
     <Folder Include="Interfaces\Caches\" />
     <Folder Include="Interfaces\Integrations\" />
-    <Folder Include="Interfaces\Commons\" />
   </ItemGroup>
 
 </Project>

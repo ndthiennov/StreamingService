@@ -1,5 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using StreamingDomain.Interfaces.Commons;
+using StreamingDomain.Interfaces.Messaging;
 using StreamingDomain.Interfaces.Repositories;
+using StreamingInfrastructure.Commons;
+using StreamingInfrastructure.Messaging;
 using StreamingInfrastructure.Persistence;
 using StreamingInfrastructure.Persistence.Repositories;
 using System;
@@ -17,6 +21,10 @@ namespace StreamingInfrastructure
             services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
 
             services.AddScoped<IUserAccountRepository, UserAccountRepository>();
+            services.AddScoped<ITokenRepository, TokenRepository>();
+            services.AddScoped<IEventPublisher, EventPublisher>();
+
+            services.AddTransient<ITokenGenerator, TokenGenerator>();
 
             return services;
         }

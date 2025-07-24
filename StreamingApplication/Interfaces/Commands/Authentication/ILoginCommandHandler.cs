@@ -11,6 +11,6 @@ namespace StreamingApplication.Interfaces.Commands.Authentication
 {
     public interface ILoginCommandHandler
     {
-        Task<ResultDto<string>> UserLogin(LoginCommand loginCommand);
+        Task<ResultDto<List<string>>> UserLogin(LoginCommand loginCommand);
     }
 }

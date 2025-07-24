@@ -9,3 +9,4 @@ C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\ne
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\refint\StreamingDomain.dll
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.pdb
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\ref\StreamingDomain.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingDomain\obj\Debug\net8.0\StreamingDomain.sourcelink.json

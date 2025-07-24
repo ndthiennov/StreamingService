@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using StreamingApplication.Commands.Authentication;
 using StreamingApplication.Interfaces.Commands.Authentication;
 
 namespace StreamingAPI.Controllers
@@ -14,19 +15,43 @@ namespace StreamingAPI.Controllers
             _loginCommandHandler = loginCommandHandler;
         }
 
-        //[HttpPost]
-        //[Route("test")]
-        //public async Task<IActionResult> Get([FromBody] string email)
-        //{
-        //    try
-        //    {
-        //        var result = await _loginCommandHandler.Get(email);
-        //        return Ok(result);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return BadRequest(ex.Message);
-        //    }
-        //}
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> UserLogin([FromBody] LoginCommand loginCommand)
+        {
+            try
+            {
+                var result = await _loginCommandHandler.UserLogin(loginCommand);
+
+                // Set refresh token in cookie
+                var cookieOptions = new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.Strict,
+                    Expires = DateTime.UtcNow.AddDays(30)
+                };
+
+                Response.Cookies.Append("refreshToken", result.Data.LastOrDefault(), cookieOptions);
+
+                if(result.IsSuccess == false)
+                {
+                    if(result.ErrorCode == "400")
+                    {
+                        return BadRequest(result.Error);
+                    }
+                    else
+                    {
+                        return Unauthorized(result.Error);
+                    }
+                }
+
+                return Ok(result.Data.FirstOrDefault());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

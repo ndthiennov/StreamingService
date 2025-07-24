@@ -2,7 +2,11 @@
 using StreamingApplication.Dtos;
 using StreamingApplication.Interfaces.Commands.Authentication;
 using StreamingDomain.Entities;
+using StreamingDomain.Events;
+using StreamingDomain.Interfaces.Commons;
+using StreamingDomain.Interfaces.Messaging;
 using StreamingDomain.Interfaces.Repositories;
+using StreamingShared.Helpers.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,19 +18,32 @@ namespace StreamingApplication.Commands.Handlers.Authentication
     public class LoginCommandHandler : ILoginCommandHandler
     {
         private readonly IUserAccountRepository _userAccountRepository;
-        public LoginCommandHandler(IUserAccountRepository userAccountRepository)
+        private readonly ITokenRepository _tokenRepository;
+        private readonly ITokenGenerator _tokenGenerator;
+        private readonly IEventPublisher _eventPublisher;
+        private readonly IDataEncryptionHelper _dataEncryptionHelper;
+        public LoginCommandHandler(IUserAccountRepository userAccountRepository, 
+            ITokenGenerator tokenGenerator, 
+            IEventPublisher eventPublisher,
+            ITokenRepository tokenRepository,
+            IDataEncryptionHelper dataEncryptionHelper)
         {
             _userAccountRepository = userAccountRepository;
+            _tokenRepository = tokenRepository;
+            _tokenGenerator = tokenGenerator;
+            _eventPublisher = eventPublisher;
+            _dataEncryptionHelper = dataEncryptionHelper;
+
         }
 
-        public async Task<ResultDto<string>> UserLogin(LoginCommand loginCommand)
+        public async Task<ResultDto<List<string>>> UserLogin(LoginCommand loginCommand)
         {
             var user = await _userAccountRepository.GetUserByEmail(loginCommand.Email);
 
             // Check user existence
             if (user == null)
             {
-                return new ResultDto<string>
+                return new ResultDto<List<string>>
                 {
                     IsSuccess = false,
                     Error = "User not existed",
@@ -37,7 +54,7 @@ namespace StreamingApplication.Commands.Handlers.Authentication
             // Check user role
             if(user.Role != "User")
             {
-                return new ResultDto<string>
+                return new ResultDto<List<string>>
                 {
                     IsSuccess = false,
                     Error = "User is not a regular user",
@@ -48,16 +65,16 @@ namespace StreamingApplication.Commands.Handlers.Authentication
             // Check user account lock
             if(user.LockoutEnabled || user.LockoutEnd > DateTime.UtcNow)
             {
-                return new ResultDto<string>
+                return new ResultDto<List<string>>
                 {
                     IsSuccess = false,
                     Error = "User account is locked",
-                    ErrorCode = "423",
+                    ErrorCode = "400",
                 };
             }
 
             // Check password
-            if (!StreamingShared.Helpers.DataEncryptionHelper.MatchCodeHashHMACSHA512(loginCommand.Password, user.HashedPassword, user.KeyPassword))
+            if (!_dataEncryptionHelper.Verify(user.HashedPassword, loginCommand.Password))
             {
                 // Check access failed number
                 if (user.AccessFailedCount >= 2)
@@ -69,7 +86,7 @@ namespace StreamingApplication.Commands.Handlers.Authentication
                     await _userAccountRepository.UpdateUserAccessFailedNumberAndLockout(loginCommand.Email, user.AccessFailedCount + 1, DateTimeOffset.UtcNow);
                 }
 
-                return new ResultDto<string>
+                return new ResultDto<List<string>>
                 {
                     IsSuccess = false,
                     Error = "Password is not corrected",
@@ -90,13 +107,43 @@ namespace StreamingApplication.Commands.Handlers.Authentication
             
             if (!existedDevice)
             {
+                var messageId = _tokenGenerator.GenerateMessageId();
 
+                var evt = new EmailSendingEvent
+                {
+                    UserId = user.Id,
+                    Email = user.Email,
+                    IsOtp = true,
+                    DeviceId = loginCommand.FingerPrint.DeviceId,
+                    IpAddress = loginCommand.FingerPrint.IpAddress,
+                    UserAgent = loginCommand.FingerPrint.UserAgent,
+                    Os = loginCommand.FingerPrint.Os,
+                    MessageId = messageId
+                };
+
+                await _eventPublisher.PublishAsync(evt);
+                return new ResultDto<List<string>>
+                {
+                    IsSuccess = true,
+                    Error = "First signed in device, please check your email for OTP"
+                };
             }
 
-            return new ResultDto<string>
+            string refreshToken = _tokenGenerator.GenerateRefreshToken(user.Id);
+            string jwtToken = _tokenGenerator.GenerateJwtToken(user.Id, user.Email, user.Role);
+
+            var tokenList = new List<string>
+            {
+                jwtToken,
+                refreshToken
+            };
+
+            await _tokenRepository.AddRefreshToken(user.Id, refreshToken);
+
+            return new ResultDto<List<string>>
             {
                 IsSuccess = true,
-                Data = "",
+                Data = tokenList,
                 ErrorCode = "200",
             };
         }
