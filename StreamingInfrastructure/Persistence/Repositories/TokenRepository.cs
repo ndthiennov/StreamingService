@@ -12,10 +12,10 @@ namespace StreamingInfrastructure.Persistence.Repositories
 {
     public class TokenRepository : ITokenRepository
     {
-        private readonly IDbConnection _connection;
-        public TokenRepository(IDbConnection connection)
+        private readonly IDbConnectionFactory _connectionFactory;
+        public TokenRepository(IDbConnectionFactory connectionFactory)
         {
-            _connection = connection;
+            _connectionFactory = connectionFactory;
         }
         public async Task<bool> AddRefreshToken(int userAccountId, string refreshToken)
         {
@@ -23,7 +23,9 @@ namespace StreamingInfrastructure.Persistence.Repositories
             INSERT INTO Token (GeneratedToken, Type, UserAccountId, ExpiredAt)
             VALUES (@GeneratedToken, @Type, @UserAccountId, @ExpiredAt)";
 
-            await _connection.ExecuteAsync(sql, new
+            using var connection = _connectionFactory.CreateConnection();
+
+            await connection.ExecuteAsync(sql, new
             {
                 GeneratedToken = refreshToken,
                 Type = "Refresh",

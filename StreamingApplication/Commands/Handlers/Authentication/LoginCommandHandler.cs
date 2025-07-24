@@ -104,7 +104,7 @@ namespace StreamingApplication.Commands.Handlers.Authentication
                     f.UserAgent == loginCommand.FingerPrint.UserAgent &&
                     f.Os == loginCommand.FingerPrint.Os);
             }
-            
+
             if (!existedDevice)
             {
                 var messageId = _tokenGenerator.GenerateMessageId();

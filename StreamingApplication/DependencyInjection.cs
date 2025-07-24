@@ -14,6 +14,7 @@ namespace StreamingApplication
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddScoped<ILoginCommandHandler, LoginCommandHandler>();
+            services.AddScoped<IVerifyDeviceCommandHandler, VerifyDeviceCommandHandler>();
 
             return services;
         }
