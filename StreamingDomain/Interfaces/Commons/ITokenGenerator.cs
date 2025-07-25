@@ -10,6 +10,6 @@ namespace StreamingDomain.Interfaces.Commons
     {
         string GenerateMessageId();
         string GenerateJwtToken(int userId, string email, string role);
-        string GenerateRefreshToken(int userId);
+        string GenerateToken(string email);
     }
 }

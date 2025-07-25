@@ -129,7 +129,7 @@ namespace StreamingApplication.Commands.Handlers.Authentication
                 };
             }
 
-            string refreshToken = _tokenGenerator.GenerateRefreshToken(user.Id);
+            string refreshToken = _tokenGenerator.GenerateToken(user.Email);
             string jwtToken = _tokenGenerator.GenerateJwtToken(user.Id, user.Email, user.Role);
 
             var tokenList = new List<string>

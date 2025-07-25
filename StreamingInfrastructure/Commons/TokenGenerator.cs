@@ -50,14 +50,14 @@ namespace StreamingInfrastructure.Commons
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        public string GenerateRefreshToken(int userId)
+        public string GenerateToken(string email)
         {
             var random = new byte[64];
             using var rng = RandomNumberGenerator.Create();
             rng.GetBytes(random);
 
             var baseToken = Convert.ToBase64String(random);
-            return $"{userId}-{baseToken}";
+            return $"{email}-{baseToken}";
         }
     }
 }
