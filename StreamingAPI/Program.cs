@@ -1,6 +1,11 @@
-using MassTransit;
+﻿using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using Serilog;
+using Serilog.Sinks.PostgreSQL;
+using StackExchange.Redis;
+using StreamingAPI.Middlewares;
 using StreamingApplication;
 using StreamingInfrastructure;
 using StreamingInfrastructure.Messaging.Consumers;
@@ -21,10 +26,10 @@ builder.Services.AddMassTransit(x =>
 
     x.UsingRabbitMq((context, cfg) =>
     {
-        cfg.Host("localhost", "/", h =>
+        cfg.Host("horse.lmq.cloudamqp.com", 5672, "pvuwlxfg", h =>
         {
-            h.Username("guest");
-            h.Password("guest");
+            h.Username("pvuwlxfg");
+            h.Password("hWdHwUAhT8CTwILoVGjq1RSQU-F9YSrp");
         });
 
         cfg.ReceiveEndpoint("email-sending-queue", e =>
@@ -55,6 +60,65 @@ builder.Services.AddAuthentication(option =>
         };
     });
 
+// Add  JWT Bearer Token to swagger
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API", Version = "v1" });
+
+    // Thêm cấu hình cho JWT Bearer
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Nhập JWT token theo format: Bearer {your token}"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+// Setup Serilog
+var columnWriters = new Dictionary<string, ColumnWriterBase>
+{
+    { "message", new RenderedMessageColumnWriter() },
+    { "level", new LevelColumnWriter() },
+    { "time_stamp", new TimestampColumnWriter() },
+    { "exception", new ExceptionColumnWriter() },
+    { "log_event", new LogEventSerializedColumnWriter() },
+    //{ "user_name", new SinglePropertyColumnWriter("UserName", propertyName: "user_name") }
+};
+
+Log.Logger = new LoggerConfiguration()
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.PostgreSQL(
+        connectionString: builder.Configuration.GetConnectionString("StreamingDbConnection"),
+        tableName: "systemlogs",
+        columnOptions: columnWriters,
+        needAutoCreateTable: true // auto-create the table if it doesn't exist
+    )
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
+// Add memory cache
+builder.Services.AddMemoryCache();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -69,6 +133,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<RateLimitMiddleware>();
 
 app.UseHttpsRedirection();
 

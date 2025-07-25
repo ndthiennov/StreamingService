@@ -15,7 +15,11 @@ namespace StreamingShared.Helpers
         public bool Verify(string hashedPassword, string plainPassword)
         {
             var result = _hasher.VerifyHashedPassword(null, hashedPassword, plainPassword);
-            return result == PasswordVerificationResult.Success;
+            if(result == PasswordVerificationResult.Failed)
+            {
+                return false;
+            }
+            return true;
         }
         /*public static HashSaltDto HMACSHA512(string code)
         {

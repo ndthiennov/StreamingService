@@ -41,8 +41,8 @@ namespace StreamingInfrastructure.Commons
             };
 
             var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
-                audience: _config["Jwt:Audience"],
+                issuer: _config["Jwt:ValidIssuer"],
+                audience: _config["Jwt:ValidAudience"],
                 claims: claims,
                 expires: DateTime.UtcNow.AddHours(1),
                 signingCredentials: credentials

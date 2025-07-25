@@ -15,6 +15,10 @@ namespace StreamingApplication
         {
             services.AddScoped<ILoginCommandHandler, LoginCommandHandler>();
             services.AddScoped<IVerifyDeviceCommandHandler, VerifyDeviceCommandHandler>();
+            services.AddScoped<ISubmitUserEmailHandler, SubmitUserEmailHandler>();
+            services.AddScoped<IInviteUserCommandHandler, InviteUserCommandHandler>();
+            services.AddScoped<ISendOtpCommandHandler, SendOtpCommandHandler>();
+            services.AddScoped<IForgotPasswordCommandHandler, ForgotPasswordCommandHandler>();
 
             return services;
         }

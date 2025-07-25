@@ -1,8 +1,72 @@
 [
   {
     "ContainingType": "StreamingAPI.Controllers.AuthenticationController",
-    "Method": "Get",
-    "RelativePath": "api/Authentication/test",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Authentication/forgotpassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPasswordCommand",
+        "Type": "StreamingApplication.Commands.Authentication.ForgotPasswordCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamingAPI.Controllers.AuthenticationController",
+    "Method": "InviteUser",
+    "RelativePath": "api/Authentication/inviteuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamingAPI.Controllers.AuthenticationController",
+    "Method": "UserLogin",
+    "RelativePath": "api/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginCommand",
+        "Type": "StreamingApplication.Commands.Authentication.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamingAPI.Controllers.AuthenticationController",
+    "Method": "SendOtp",
+    "RelativePath": "api/Authentication/sendotp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamingAPI.Controllers.AuthenticationController",
+    "Method": "SubmitUserEmail",
+    "RelativePath": "api/Authentication/submitemail",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

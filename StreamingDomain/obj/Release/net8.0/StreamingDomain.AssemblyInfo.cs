@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamingDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ed1ba1c4320348b2eb32a932125e82d95dfcc36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+378c6336ee6c3f30e2ca2c82eae6d9f56b33e828")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamingDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamingDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

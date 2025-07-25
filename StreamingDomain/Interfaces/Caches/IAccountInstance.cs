@@ -9,6 +9,7 @@ namespace StreamingDomain.Interfaces.Caches
 {
     public interface IAccountInstance
     {
+        Task<AccountCache?> Get(string email);
         Task<bool> Add(AccountCache accountCache);
     }
 }

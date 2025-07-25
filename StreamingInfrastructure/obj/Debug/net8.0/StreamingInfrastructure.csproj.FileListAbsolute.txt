@@ -13,3 +13,4 @@ C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\refint\StreamingInfrastructure.dll
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.pdb
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\ref\StreamingInfrastructure.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingInfrastructure\obj\Debug\net8.0\StreamingInfrastructure.sourcelink.json

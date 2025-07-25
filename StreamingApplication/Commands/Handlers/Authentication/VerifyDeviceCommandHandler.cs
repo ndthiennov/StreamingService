@@ -9,5 +9,9 @@ namespace StreamingApplication.Commands.Handlers.Authentication
 {
     public class VerifyDeviceCommandHandler : IVerifyDeviceCommandHandler
     {
+        public VerifyDeviceCommandHandler()
+        {
+            
+        }
     }
 }

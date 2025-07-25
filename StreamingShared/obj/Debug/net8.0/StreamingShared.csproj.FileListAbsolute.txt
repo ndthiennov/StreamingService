@@ -9,3 +9,5 @@ C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\ne
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\refint\StreamingShared.dll
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.pdb
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\ref\StreamingShared.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.csproj.AssemblyReference.cache
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingShared\obj\Debug\net8.0\StreamingShared.sourcelink.json

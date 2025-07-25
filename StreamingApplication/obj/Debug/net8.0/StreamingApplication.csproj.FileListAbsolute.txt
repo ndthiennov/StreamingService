@@ -15,3 +15,4 @@ C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingApplication\obj\Deb
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingApplication\obj\Debug\net8.0\refint\StreamingApplication.dll
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingApplication\obj\Debug\net8.0\StreamingApplication.pdb
 C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingApplication\obj\Debug\net8.0\ref\StreamingApplication.dll
+C:\Users\intern.ndthien2\Downloads\StreamingService\StreamingApplication\obj\Debug\net8.0\StreamingApplication.sourcelink.json

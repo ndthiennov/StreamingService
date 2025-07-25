@@ -11,5 +11,6 @@ namespace StreamingDomain.Interfaces.Repositories
     {
         Task<UserAccount?> GetUserByEmail(string email);
         Task<bool> UpdateUserAccessFailedNumberAndLockout(string email, int failedCount, DateTimeOffset? lockoutEnd);
+        Task<bool> UpdateUserPassword(string email, string hashedPassword);
     }
 }
